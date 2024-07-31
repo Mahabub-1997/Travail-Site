@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url("img/ban1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%; 
+}
+
+
+.logo{
+     width:80px;
+    
+}
+
+.nav-links li{
+   display: inline-block;
+   margin: 10px 30px;
+   list-style-type: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-links  li:hover{
+    background-color: blueviolet;
+    padding: 10px 20px;
+
+}
+
+.register-btn{
+    background-color: #fff;
+    color:black;
+    text-decoration: none;
+    padding: 8px 20px ;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.action{
+    background-color: rgb(167, 102, 102,0.3);
+    border-radius: 20px;
+}
+.header h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 4vw;
+    margin-top: 20%;
+
+}
+.search-box{
+    background-color: #f39595;
+    width: 80%;
+    margin: 30px auto;
+    padding:  20px 30px 30px ;
+    border-radius: 50px;
+}
+.search-box form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 500; 
+
+}
+.search-box form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+    width: 200px;
+    color: rgba(17, 35, 139, 0.979);
+
+}
+.search-box form button{
+    background-color:rgba(221, 20, 13, 0.336);
+    color:black;
+    height: 35px;
+    width: 84px;
+    border-radius: 20%;
+    outline: none;
+    border: 0;
+    padding-right: 0% ;
+    text-decoration: none;
+}
+.location-inout{
+    flex: 1;
+}
+.search-box form label{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/*-----------------------------exclusive--------------------------*/
+
+
+
+.sub-title{
+    color: #333;
+    font-weight: 500;
+    font-size: 2.2vw;
+    margin: 50px 0px 20px;
+}
+
+.exclusive div img{
+    border-radius: 10px;
+    background-image: cover;
+}
+.exclusive div{
+    position: relative;
+}
+
+.exclusive span{
+    position: absolute;
+    top:50%;
+    left:50%;
+    background: COVER;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+
+
+
+    color:#fff;
+    
+
+}
+
+.exclusive .col:hover span{
+    display: block;
+}
+.exclusive .col:hover .layer:after{
+    content: '';
+    background-color: black;
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.3;
+    border-radius: 10px;
+    display: block;
+}
+
+/*-----------------------------foooter--------------------------*/
+
+
+.footer{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
